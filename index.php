@@ -29,7 +29,7 @@
 
 <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-Connect Form - Interested in::<select  id="00N1I00000LqV18" name="00N1I00000LqV18" title="Connect Form - Interested in:"><option value="">--None--</option><option value="New Business">New Business</option>
+I'm interested in...<select  id="00N1I00000LqV18" name="00N1I00000LqV18" title="Connect Form - Interested in:"><option value="">--None--</option><option value="New Business">New Business</option>
 <option value="Career Opportunities">Career Opportunities</option>
 <option value="Press">Press</option>
 <option value="Other">Other</option>
@@ -37,7 +37,7 @@ Connect Form - Interested in::<select  id="00N1I00000LqV18" name="00N1I00000LqV1
 
 <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-Connect Form - Project Details:<textarea  id="00N1I00000LqV1D" name="00N1I00000LqV1D" rows="6" type="text" wrap="soft"></textarea><br>
+What problem can we help you solve? Tell us about your project<textarea  id="00N1I00000LqV1D" name="00N1I00000LqV1D" rows="6" type="text" wrap="soft"></textarea><br>
 
 <input type="submit" name="submit">
 
