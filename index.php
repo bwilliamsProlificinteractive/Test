@@ -13,7 +13,7 @@
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <input type=hidden name="oid" value="00D1I000003nSqw">
-<input type=hidden name="retURL" value="http://">
+<input type=hidden name="retURL" value="https://www.prolificinteractive.com/ideas/">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -29,9 +29,15 @@
 
 <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
+Connect Form - Interested in::<select  id="00N1I00000LqV18" name="00N1I00000LqV18" title="Connect Form - Interested in:"><option value="">--None--</option><option value="New Business">New Business</option>
+<option value="Career Opportunities">Career Opportunities</option>
+<option value="Press">Press</option>
+<option value="Other">Other</option>
+</select><br>
+
 <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-<label for="description">Description</label><textarea name="description"></textarea><br>
+Connect Form - Project Details:<textarea  id="00N1I00000LqV1D" name="00N1I00000LqV1D" rows="6" type="text" wrap="soft"></textarea><br>
 
 <input type="submit" name="submit">
 
