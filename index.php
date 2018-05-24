@@ -3,17 +3,16 @@
 <!--  If necessary, please modify the charset parameter to specify the        -->
 <!--  character set of your HTML page.                                        -->
 <!--  ----------------------------------------------------------------------  -->
-
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <FORM> element to your page.             -->
 <!--  ----------------------------------------------------------------------  -->
-
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<link rel="stylesheet" type="text/css" href="copiedCSS.css"/>
+<div class="connect-section"><form class="connect-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <input type=hidden name="oid" value="00D1I000003nSqw">
-<input type=hidden name="retURL" value="https://www.prolificinteractive.com/ideas/">
+<input type=hidden name="retURL" value="http://">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -23,22 +22,16 @@
 <!--  value="bwilliams@prolificinteractive.com">                              -->
 <!--  ----------------------------------------------------------------------  -->
 
-<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+<label for="first_name">First Name</label><div class="input-field"> <input id="first_name" maxlength="40" placeholder="First Name" name="first_name" size=20 type="text" /><br></div>
 
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+<label for="last_name">Last Name</label> <div class="input-field"> <input  id="last_name" maxlength="80" placeholder="Last Name" name="last_name" size="20" type="text" /><br> </div>
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<label for="email">Email</label> <div class="input-field"> <input  id="email" maxlength="80" placeholder="Email" name="email" size="60" type="text" /></div><br>
 
-I'm interested in...<select  id="00N1I00000LqV18" name="00N1I00000LqV18" title="Connect Form - Interested in:"><option value="">--None--</option><option value="New Business">New Business</option>
-<option value="Career Opportunities">Career Opportunities</option>
-<option value="Press">Press</option>
-<option value="Other">Other</option>
-</select><br>
+<label for="company">Company</label><div class="input-field"><input  id="company" maxlength="40" placeholder="Company" name="company" size="20" type="text" /></div><br>
 
-<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+<label>Description</label><div class="input-field input-field-message"><textarea id="description" placeholder="Description" name="message" class="materialize-textarea invalid" required="" data-parsley-id="15"></textarea></div>
 
-What problem can we help you solve? Tell us about your project<textarea  id="00N1I00000LqV1D" name="00N1I00000LqV1D" rows="6" type="text" wrap="soft"></textarea><br>
+<button type="submit" class="btn btn-primary form-submit">Submit</button>
 
-<input type="submit" name="submit">
-
-</form>
+</form></div>
