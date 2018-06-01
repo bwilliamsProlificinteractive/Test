@@ -4,7 +4,7 @@
 
     <link rel='preload' id='pi-css-css' href='https://www.prolificinteractive.com/wp-content/themes/prolific-interactive/dist/styles/main-9762162602.css' onload="this.rel='stylesheet'" as='style' />
 
-<body class="page-template page-template-templates page-template-connect page-template-templatesconnect-php page page-id-187 connect">
+<body scroll="no" class="page-template page-template-templates page-template-connect page-template-templatesconnect-php page page-id-187 connect">
     
                 <div class="connect-section">
                     <h2 class="connect-section-headline">Let's build something remarkable together.</h2>
@@ -13,16 +13,10 @@
                            <input type=hidden name="oid" value="00D1I000003nSqw">
                             <input type=hidden name="retURL" value="https://www.prolificinteractive.com/work/"> 
                             <div>
-                                <div class="input-field">
-                                    <input id="first_name" placeholder="Jane" type="text" name="name" required>
-                                    <label for="name" data-error="Required">First Name</label>
-                                </div>
-                                <div class="input-field">
-                                    <input id="last_name" placeholder="Smith" type="text" name="name" required>
-                                    <label for="name" data-error="Required">Last Name</label>
-                                </div>
+                                 <label for="first_name">First Name</label><input class="input-field" placeholder="First Name" id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+                                <label for="last_name">Last Name</label><input  class="input-field" placeholder="Last Name" id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
                                 <div class="input-field input-field-interested-in">
-                                    <select id="interest" name="interest">
+                                    <select id="interest" name="00N1I00000LqV18">
                                         <option value="New Business">New Business</option>
                                         <option value="Career Opportunities">Career Opportunities</option>
                                         <option value="Press">Press</option>
@@ -30,19 +24,13 @@
                                     </select>
                                     <label for="interest" data-error="Required">I'm interested in...</label>
                                 </div>
-                                <div class="input-field">
-                                    <input id="company" placeholder="Dream Partner" type="text" name="company" data-parsley-validate-if-empty="true" data-parsley-required-if-interest="New Business">
-                                    <label for="company" data-error="Required">Company</label>
-                                </div>
-                                <div class="input-field">
-                                    <input id="email" placeholder="janesmith@dreampartner.com" type="email" name="email" required>
-                                    <label for="email" data-error="Invalid Email">Email</label>
-                                </div>
-                                <div class="input-field input-field-message">
-                                    <textarea id="00N1I00000LqV1D" placeholder="Hi, Prolific!" name="message" class="materialize-textarea" required></textarea>
-                                    <label for="message" data-error="Required">What problem can we help you solve?
-                                        <br /> Tell us about your project.</label>
-                                </div>
+
+                                <label for="company">Company</label><input class="input-field" placeholder="Company" id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+                               <label for="email">Email</label><input class="input-field" id="email" placeholder="E-mail" maxlength="80" name="email" size="20" type="text" /><br>
+                                <label>What problem can we help you solve?<br>Tell us about your project.</label>
+                                <div class="input-field "><textarea id="00N1I00000LqV1D" name="00N1I00000LqV1D" placeholder="Description" class="materialize-textarea"></textarea></div>
+
                             </div><br>
                             <input type="submit" class="btn btn-primary" name="submit">
                         </form>
