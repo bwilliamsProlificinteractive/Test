@@ -3,14 +3,7 @@
 <html>
 
     <link rel='preload' id='pi-css-css' href='https://www.prolificinteractive.com/wp-content/themes/prolific-interactive/dist/styles/main-9762162602.css' onload="this.rel='stylesheet'" as='style' />
-<head>
-<script>
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
-</script>
-</head>
+
 <body scroll="no" class="page-template page-template-templates page-template-connect page-template-templatesconnect-php page page-id-187 connect">
     
                 <div class="connect-section">
@@ -44,12 +37,6 @@
     
     <script>
         (window.jQuery && jQuery.noConflict()) || document.write('<script src="https://www.prolificinteractive.com/wp-includes/js/jquery/jquery.js"><\/script>')
-			$(function () {
-		$(document).scroll(function () {
-		var $nav = $(".navbar-fixed-top");
-		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-		});
-		});
     </script>
     
     <script type="text/javascript" defer src="https://www.prolificinteractive.com/wp-content/cache/autoptimize/js/autoptimize_0e28e7d0de9a7a8d4f11431d5133a982.js"></script>
