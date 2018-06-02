@@ -220,6 +220,9 @@ body{
     margin:0 auto;
     background-color:#fff
 }
+body.scrolled-into-page{
+    background-color:#fff !important;
+}
 .content.row{
     max-width:1800px;
     margin:0 auto
